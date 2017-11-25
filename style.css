@@ -33,6 +33,7 @@ header div {
 p {
     font-size: 1.5rem;
     color: #C98910;
+    line-height: 1.2;
 
 }
 
@@ -84,4 +85,23 @@ footer {
 
 footer a {
     color: white;
+}
+
+@media (max-width: 699px) {
+    #say-hello {
+        height: 50vh;
+    }
+
+    #say-hello a {
+        left: calc(50vw - 8rem);
+        top: 13vh;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+    header {
+        padding-top: 15vh;
+    }
 }
