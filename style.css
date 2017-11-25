@@ -29,3 +29,59 @@ header div {
     font-size: 2rem;
     color: #C98910;
 }
+
+p {
+    font-size: 1.5rem;
+    color: #C98910;
+
+}
+
+section {
+    padding: 4rem 6rem;
+    text-align: center;
+}
+
+#say-hello {
+    background: url(boramey.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+#say-hello a {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    color: #333333;
+    position: absolute;
+    left: calc(50vw - 22rem);
+    top: 55vh;
+}
+
+.social {
+    text-decoration: none;
+}
+
+.social svg {
+    width: 3rem;
+    height: 3rem;
+}
+
+.social svg path {
+    fill: #C98910;
+}
+
+.social:not(:last-child) {
+    margin-right: 4rem;
+}
+
+footer {
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+    color: white;
+    background-color: #333333;
+}
+
+footer a {
+    color: white;
+}
